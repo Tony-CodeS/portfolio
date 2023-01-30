@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+#progress{
+    background-color: black;
+    /* color: black; */
+}
+
+#about-heading{
+    color: #F3FFFF;
+    font-family: "Cookie";
+    font-size: 58px;
+}
+
+#about-writeup{
+    color: #3AAFA9;
+    font-size: 20pt;
+    margin-top: 20px;
+    width: 90%;
+}
+
+#aboutdiv{
+    margin-top: 30px;
+}
+
+#skill-div{
+    color: #3AAFA9;
+    margin-top: 30px;
+}
+
+#stacks{
+    margin: 0;
+    font-family: "Cookie";
+}
+
+#stacks-div{
+    margin-bottom: 30px;
+}

@@ -26,10 +26,11 @@
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    margin-top: 50px;
+    margin-top: 80px;
     background: #FEFFFF;
     position: relative;
     display: none;
+    margin-bottom: 10px;
 }
 
 
@@ -54,12 +55,14 @@
     display: flex;
     justify-content: space-between;
     margin-top: 90px;
+    
     /* background: red; */
 }
 
 h1{
-    font-size:70pt;
+    font-size:90pt;
     color: #DEF2F1;
+    font-family: "Cookie";
     /* background-color: red; */
 }
 
@@ -178,7 +181,7 @@ color: #FEFFFF;
     
 #Home{
    
-    margin-top: 10px;
+    margin-top: 90px;
 
 }
 
@@ -257,7 +260,7 @@ h1{
 
     #intro-div{
         width: 100%;
-        margin-top: 50px;
+        margin-top: -50px;
     }
 
     #download-btn{
@@ -331,7 +334,7 @@ h1{
         width: 200px;
         height: 200px;
         border-radius: 50%;
-        margin-top: 30px;
+        
     
     }
     
@@ -343,9 +346,7 @@ h1{
        
     }
 
-    #intro-div{
-        margin-top: 20px;
-    }
+  
 
     #hire-button{
         width: 200px;

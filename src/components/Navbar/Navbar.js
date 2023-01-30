@@ -6,15 +6,17 @@ import './Navbar.css'
 
 function Navbar() {
   return (
-    <div>
+    <div id='fixed'>
         <ul id='navbar'>
             <li>
-                <AiFillHome  id='icon'/>
+            <a href='#Homes' id='nav'>
+            <AiFillHome  id='icon'/>
                 Home
+            </a>
             </li>
-            <li>
-                <FaBookmark  id='icon'/>
-                About
+            <li >
+               <a href='#About' id='nav'>  <FaBookmark  id='icon'/>
+                About</a>
             </li>
             <li>
                 <IoMdBriefcase  id='icon'/>

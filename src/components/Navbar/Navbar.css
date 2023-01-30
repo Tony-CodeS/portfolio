@@ -7,8 +7,16 @@
     font-weight: bolder;
     margin-left: 0px;
     padding-left: 0;
-}
 
+}
+#fixed{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background: #17252A;
+    width: 100%;
+    margin-bottom: 90px;
+}
 li{
     list-style: none;
     margin-right: 30px;
@@ -22,6 +30,10 @@ li{
     margin-bottom: 5px;
 }
 
+#nav{
+    text-decoration: none;
+    color: #3AAFA9;
+}
 @media screen and (max-width:600px){
     #icon{
         display: none;
