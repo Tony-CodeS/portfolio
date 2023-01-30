@@ -1,0 +1,385 @@
+#image-div{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: #FEFFFF;
+    position: relative;
+    margin-right: 100px;
+    margin-top: 150px;
+    filter: blur(10%);
+}
+
+#image-div2{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: url('../../Anthony\ 2.jpg');
+    position: absolute;
+    margin-top: -30px;
+    background-position-x: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 100;
+}
+
+#mobileimage{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 50px;
+    background: #FEFFFF;
+    position: relative;
+    display: none;
+}
+
+
+#mobileimage1{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: url('../../Anthony\ 2.jpg');
+    position: absolute;
+    margin-top: -10px;
+    background-position-x: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 100;
+}
+#image-div2:hover{
+    transform: scale(1.1);
+   
+}
+
+#Home{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+    /* background: red; */
+}
+
+h1{
+    font-size:70pt;
+    color: #DEF2F1;
+    /* background-color: red; */
+}
+
+#intro-div{
+    width: 50%;
+    margin-top: 50px;
+}
+
+#intro-p{
+    font-size: 20pt;
+    color: #3AAFA9;
+    margin-top: 30px;
+    width: 600px;
+}
+
+#btn-div{
+    margin-top: 50px;
+}
+
+
+#hire-button{
+    width: 250px;
+    height: 70px;
+    border: none;
+    border-radius: 40px;
+    background: #3AAFA9;
+    color: #FEFFFF;
+    margin-right: 20px;
+    font-size: 20pt;
+   
+
+}
+
+#hire-button-a{
+text-decoration: none;
+color: #FEFFFF;
+}
+
+#download-btn{
+    width: 400px;
+    height: 70px;
+    border: none;
+    border-radius: 40px;
+    background: transparent;
+    color: #3AAFA9;
+    border: 3px solid #3AAFA9;
+    padding: 10px;
+    font-size: 20pt;
+   
+}
+#download-icon{
+    margin-left: 15px;
+}
+#socials{
+    display: flex;
+    margin-top: 30px;
+    color: #3AAFA9;
+    padding-left: 0;
+    margin-right: 60px;
+}
+
+#socials-li{
+    margin-right: 40px;
+    color: #3AAFA9;
+  
+}         
+#socials-li:hover{
+    transform: scale(1.2);
+  
+}
+#a{
+    color: #3AAFA9;
+    text-decoration: none;
+}
+#a:hover{
+    color: #3AAFA9;
+}
+
+#image-span{
+    background-color: #3AAFA9;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-left: 350px;
+    justify-content: flex-end;
+    border-radius: 50%;
+}
+
+
+@media screen and (max-width:1280px) {
+    #image-div2{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        margin-top: -10px;
+
+    }
+
+    #image-div{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        margin-top: 50px;
+     
+    }
+
+    #image-span{
+        background-color: #3AAFA9;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        margin-left: 200px;
+       
+    }
+
+    
+#Home{
+   
+    margin-top: 10px;
+
+}
+
+#btn-div{
+    margin-top: 30px;
+    width: 800px;
+    padding: 10px;
+}
+h1{
+    font-size: 50pt;
+}
+
+#intro-p{
+    font-size: 20pt;
+    color: #3AAFA9;
+    margin-top: 30px;
+    width: 500px;
+}
+}
+
+
+@media screen and (max-width:920px) {
+    h1{
+        font-size:40pt;
+        color: #FEFFFF;
+    }
+
+    #intro-p{
+        font-size: 15pt;
+        color: #3AAFA9;
+        margin-top: 30px;
+        width: 350px;
+    }
+
+    #image-div2{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        margin-top: -10px;
+
+    }
+
+    #image-div{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-top: 10px;
+     
+    }
+}
+
+@media screen and (max-width:768px){
+    #download-btn{
+        width: 350px;
+        height: 70px;
+        border: none;
+        border-radius: 40px;
+        background: transparent;
+        color: #3AAFA9;
+        border: 3px solid #3AAFA9;
+        padding: 10px;
+        font-size: 20pt;
+       }
+}
+
+@media screen and (max-width:600px){
+    #mobileimage{
+      
+        display: block;
+    }
+
+    #image-div{
+        display: none;
+     
+    }
+
+    #intro-div{
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    #download-btn{
+        width: 200px;
+        height: 70px;
+        border: none;
+        border-radius: 40px;
+        background: transparent;
+        color: #3AAFA9;
+        border: 3px solid #3AAFA9;
+        padding: 10px;
+        font-size: 10pt;
+       
+    }
+    
+#hire-button{
+    width: 150px;
+    height: 70px;
+    border: none;
+    border-radius: 40px;
+    background: #3AAFA9;
+    color: #FEFFFF;
+    margin-right: 20px;
+    font-size: 15pt;
+   
+
+}
+}
+
+@media screen and (max-width:450px){
+    #hire-button{
+        width: 250px;
+        height: 70px;
+        font-size: 15pt;
+      
+       
+    
+    }
+
+    #download-btn{
+        width: 250px;
+        height: 70px;
+        font-size: 10pt;
+        margin-top: 30px;
+       
+    }                           
+
+    #btn-div{
+        margin-top: 30px;
+        width: 100%;
+        padding: 10px;
+    }
+
+    
+    #intro-p{
+        font-size: 15pt;
+        color: #3AAFA9;
+        margin-top: 30px;
+        width: 100%;
+    }
+}
+
+
+@media screen and (width:280px) {
+    h1{
+        font-size: 40px;
+        margin-top: 5px;
+    }
+
+    #mobileimage{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-top: 30px;
+    
+    }
+    
+    
+    #mobileimage1{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+       
+    }
+
+    #intro-div{
+        margin-top: 20px;
+    }
+
+    #hire-button{
+        width: 200px;
+        height: 50px;
+        font-size: 15pt;
+      
+       
+    
+    }
+
+    #download-btn{
+        width: 200px;
+        height: 50px;
+        font-size: 10pt;
+        margin-top: 30px;
+       
+    }   
+    
+    #socials-li{
+        margin-right: 20px;
+        color: #3AAFA9;
+      
+    } 
+
+    #aa{
+        font-size: 10px;
+    }
+
+    #image-span{
+        width: 20px;
+        height: 20px;
+        margin-left: 130px;
+       
+    }
+}
+
+/*  */

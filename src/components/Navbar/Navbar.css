@@ -1,0 +1,46 @@
+#navbar{
+    display: flex;
+    color: #3AAFA9;
+    font-size: 30px;
+    text-decoration: none;
+    margin-top: 30px;
+    font-weight: bolder;
+    margin-left: 0px;
+    padding-left: 0;
+}
+
+li{
+    list-style: none;
+    margin-right: 30px;
+    margin-left: 0;
+}
+
+#icon{
+    font-size: 20px;
+    margin-right: 10px;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width:600px){
+    #icon{
+        display: none;
+    }
+
+    #navbar{
+      
+        margin-top: 20px;
+        font-size: 20px;
+        
+    }
+}
+
+@media screen and (width:280px){
+    
+    #navbar{
+      
+        margin-top: 20px;
+        font-size: 15px;
+        
+    }
+}
