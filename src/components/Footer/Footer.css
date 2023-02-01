@@ -1,0 +1,50 @@
+#contact{
+    display: flex;
+    color: #3AAFA9;
+    margin:auto;
+    /* background-color: red; */
+    /* height: 100px; */
+    width: 300px;
+    margin-top: 70px;
+
+}
+
+#socials-lis{
+    margin-right: 70px;
+    /* background-color: #070707; */
+    color: #070707;
+    /* font-size: 70px; */
+  
+}         
+#socials-lis:hover{
+    transform: scale(1.3);
+  
+}
+#as{
+
+    text-decoration: none;
+    color: #3AAFA9;
+    
+}
+/* #as:hover{
+
+} */
+
+#footer{
+    /* background:#636161; */
+    height: 200px;
+    border-top: 5px solid #07635d;
+    border-bottom: 5px solid #07635d;
+    border-bottom-left-radius: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+i{
+    color: #3AAFA9
+}
+
+#copyright{
+    color: #3AAFA9;
+    font-size: 20pt;
+}

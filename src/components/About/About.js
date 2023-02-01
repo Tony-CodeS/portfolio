@@ -39,45 +39,45 @@ function About() {
         <ProgressBar animated now={95} id='progress' label={`95%`} variant='success'/>
         </div>
 
-        <div id='stacks-div' data-aos="fade-up">
+        <div id='stacks-div' data-aos="zoom-in">
         <h3 id='stacks'> CSS</h3>
         <ProgressBar animated now={75} id='progress' label={`75%`} variant='success'/>
         </div>
 
-        <div id='stacks-div' data-aos="fade-up">
+        <div id='stacks-div'data-aos="zoom-in">
         <h3 id='stacks'> BOOTSTRAP</h3>
         <ProgressBar animated now={85} id='progress' label={`85%`} variant='success'/>
         </div>
 
-        <div id='stacks-div' data-aos="fade-up">
+        <div id='stacks-div' data-aos="zoom-in">
         <h3 id='stacks'> JAVASCRIPT</h3>
         <ProgressBar animated now={55} id='progress' label={`55%`} variant='success'/>
         </div>
 
-        <div id='stacks-div' data-aos="fade-up">
+        <div id='stacks-div' data-aos="zoom-in">
         <h3 id='stacks'> REACT.JS</h3>
         <ProgressBar animated now={75} id='progress' label={`75%`} variant='success'/>
         </div>
 
-        <div id='stacks-div'>
+        <div id='stacks-div'data-aos="zoom-in">
         <h3 id='stacks' > NODE.JS</h3>
         <ProgressBar animated now={75} id='progress' label={`75%`} variant='success'/>
         </div>
 
         
-        <div id='stacks-div'>
+        <div id='stacks-div' data-aos="zoom-in">
         <h3 id='stacks'> EXPRESS.JS</h3>
         <ProgressBar animated now={75} id='progress' label={`75%`} variant='success'/>
         </div>
 
         
-        <div id='stacks-div'>
+        <div id='stacks-div'data-aos="zoom-in">
         <h3 id='stacks'> MONGO-DB</h3>
         <ProgressBar animated now={70} id='progress' label={`70%`} variant='success'/>
         </div>
 
         
-        <div id='stacks-div'>
+        <div id='stacks-div'data-aos="zoom-in">
         <h3 id='stacks'> VERSION CONTROL</h3>
         <ProgressBar animated now={65} id='progress' label={`65%`} variant='success'/>
         </div>
