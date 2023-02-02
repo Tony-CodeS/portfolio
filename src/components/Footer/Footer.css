@@ -47,4 +47,11 @@ i{
 #copyright{
     color: #3AAFA9;
     font-size: 20pt;
+    margin-left: 300px;
+}
+
+@media screen and (max-width:500px){
+    #copyright{
+        margin-left: 200px;
+    }
 }

@@ -13,7 +13,7 @@
     width: 500px;
     height: 500px;
     border-radius: 50%;
-    background: url('../../Anthony\ 2.jpg');
+    background: url('../../assets/Anthony\ 2.jpg');
     position: absolute;
     margin-top: -30px;
     background-position-x: right;
@@ -38,7 +38,7 @@
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    background: url('../../Anthony\ 2.jpg');
+    background: url('../../assets/Anthony\ 2.jpg');
     position: absolute;
     margin-top: -10px;
     background-position-x: right;

@@ -19,8 +19,11 @@ function Navbar() {
                 About</a>
             </li>
             <li>
+                <a href='#Portfolio' id='nav'>
                 <IoMdBriefcase  id='icon'/>
                 Profile
+                </a>
+              
             </li>
         </ul>
     </div>

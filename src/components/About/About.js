@@ -15,7 +15,7 @@ function About() {
   return (
 
  
-    <div id='#About'>
+    <div id='About'>
          <div>
       <div id='aboutdiv' data-aos="fade-up">
         <h2 id='about-heading'> About Me</h2>

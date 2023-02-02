@@ -19,6 +19,15 @@ function Footer() {
             <Marquee gradient={false} speed={70}>
             <MdCopyright id='copyright'/>
             <i> ANTHONY AGUANUNU</i>
+
+            <MdCopyright id='copyright'/>
+            <i> ANTHONY AGUANUNU</i>
+
+            <MdCopyright id='copyright'/>
+            <i> ANTHONY AGUANUNU</i>
+
+            <MdCopyright id='copyright'/>
+            <i> ANTHONY AGUANUNU</i>
             </Marquee>
             
     </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import { useEffect } from 'react';
+import {motion, spring} from 'framer-motion'
 import Aos from 'aos';
 import "aos/dist/aos.css"
 import {BsWhatsapp} from "react-icons/bs"
@@ -13,6 +14,21 @@ import {TfiLinkedin} from 'react-icons/tfi'
 import './Home.css'
 
 function Home() {
+
+    const onButtonClick = () => {
+        // using Java Script method to get PDF file
+        fetch('myResume.pdf').then(response => {
+            response.blob().then(blob => {
+                // Creating new object of PDF file
+                const fileURL = window.URL.createObjectURL(blob);
+                // Setting various property values
+                let alink = document.createElement('a');
+                alink.href = fileURL;
+                alink.download = 'myResume.pdf';
+                alink.click();
+            })
+        })
+    }
   
   useEffect(() => {
     Aos.init({duration:1000})
@@ -27,11 +43,34 @@ function Home() {
       <div id='Home'>
         <div id='intro-div' data-aos="zoom-in">
             <h1> HELLO!! I'm Anthony...</h1>
-            <p id='intro-p'> i am a full-stack web-developer,i work with react.js for nice user interface and node.js for API's</p>
+            <p id='intro-p'> I am a full-stack web-developer, i work with react.js for nice user interface and node.js for API's</p>
             {/*button div  */}
             <div id='btn-div'>
-                <button id='hire-button' data-aos="zoom-in"> <a href='https://wa.me/+2348088589379' id='hire-button-a'> Hire ME <CgProfile size={30} id='download-icon'/> </a> </button>
-                <button id='download-btn'>Download Resume <ImDownload size={30} id='download-icon'/> </button> 
+                <motion.button
+                 whileHover={{
+                    scale:0.9,
+                    originX:0,
+
+                }}
+
+                transition={{
+                    type:spring,
+                    stiffness:300
+                }}
+                 id='hire-button' data-aos="zoom-in"> <a href='https://wa.me/+2348088589379' id='hire-button-a'> Hire ME <CgProfile size={30} id='download-icon'/> </a> </motion.button>
+                <motion.button 
+                whileHover={{
+                    scale:1.1,
+                    originX:0,
+
+                }}
+
+                transition={{
+                    type:spring,
+                    stiffness:300
+                }}
+                id='download-btn' onClick={onButtonClick}>Download Resume 
+                <ImDownload size={30} id='download-icon'/> </motion.button> 
             </div>
             {/*  */}
             <div>

@@ -34,3 +34,10 @@
 #stacks-div{
     margin-bottom: 30px;
 }
+
+@media screen and (max-width:600px){
+    #about-writeup{
+        font-size: 15pt;
+        width: 100%;
+    }
+}
